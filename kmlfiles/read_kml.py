@@ -1,4 +1,4 @@
-import parser
+from pykml import parser
 class read_kml:
     def read_kml(kml_file):
         f = open(kml_file, "r")
